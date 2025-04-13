@@ -1,0 +1,9 @@
+pipeline:
+  - tool: amass
+    input:
+      domain: "example.com"
+  - tool: httpx
+  - tool: nuclei
+    input:
+      args: ["-eid", "http-missing-security-headers"]
+  - tool: report

@@ -1,0 +1,9 @@
+echo '{
+  "tool": "pipeline",
+  "args": {
+    "yaml_template": "recon.yaml",
+    "params": {
+      "DOMAIN": "example.com"
+    }
+  }
+}' | mcp-client

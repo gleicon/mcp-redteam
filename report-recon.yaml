@@ -1,0 +1,6 @@
+pipeline:
+  - tool: report
+    input:
+      input: |
+        fake-subdomain.example.com
+        {{DOMAIN}}

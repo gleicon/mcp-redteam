@@ -1,0 +1,5 @@
+pipeline:
+  - tool: amass
+    input:
+      domain: "{{DOMAIN}}"
+  - tool: report
