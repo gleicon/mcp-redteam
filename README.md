@@ -11,10 +11,20 @@ MCP-RedTeam is a Model Context Protocol (MCP) implementation for red team and re
 - **Natural Language Processing**: Convert natural language prompts into executable pipelines
 - **Comprehensive Reporting**: Detailed reports of pipeline execution results
 
+## Screenshots
+![screen1](screenshots/screen1.png)
+![screen2](screenshots/screen2.png)
+![screen3](screenshots/screen3.png)
+![screen4](screenshots/screen4.png)
+![screen5](screenshots/screen5.png)
+![screen6](screenshots/screen6.png)
+![screen7](screenshots/screen7.png)
+
 ## Tools
 
 The project supports the following security tools:
 
+- **subfinder**: Subdomain finder
 - **amass**: Subdomain enumeration and attack surface mapping
 - **httpx**: Fast and multi-purpose HTTP toolkit
 - **dnsx**: Fast and multi-purpose DNS toolkit
@@ -57,28 +67,6 @@ Available Makefile targets:
 - `clean`: Clean build artifacts
 - `run`: Build and run the binary
 - `help`: Show help message
-
-## Project Structure
-
-```
-.
-├── cmd/                    # Command-line interface
-├── internal/              # Internal packages
-│   ├── pipeline/         # Pipeline management
-│   ├── tools/           # Tool registry and handlers
-│   └── utils/           # Utility functions
-├── pipeline_templates/   # YAML pipeline templates
-├── testdata/            # Test data and fixtures
-├── Makefile             # Build and installation scripts
-└── README.md            # Project documentation
-```
-
-## Pipeline Templates
-
-The project includes several predefined pipeline templates:
-
-- **recon.yaml**: Basic reconnaissance pipeline for domain analysis
-- **code_analysis.yaml**: Code analysis pipeline for security assessment
 
 ## Usage
 
